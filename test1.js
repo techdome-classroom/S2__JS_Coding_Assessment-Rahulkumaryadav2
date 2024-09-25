@@ -1,14 +1,10 @@
 const {isValid} = require("./program1");
-const assert = require("assert");
+const assert = require('assert');
 
-
-
-describe("test cases for problem 1 ", function () {
-
-    it("test case 1", function () {
-        const result = isValid("()");
-        assert.equal(true, result);
-    });
+describe('test cases for problem 1', function() {
+  it('test case 1', function() {
+    assert.strictEqual(myFunction(args), expectedOutput);
+  });
 
     it("test case 2", function () {
         const result = isValid("()[]{}");
